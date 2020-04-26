@@ -1,0 +1,16 @@
+;Left Alt       默认位置            38,00
+;Left Ctrl      默认位置            1D,00
+;Left Windows   默认位置            5B,E0
+
+;位置功能
+;ctrl功能到alt位置
+;1D,00,38,00
+;alt功能到win位置
+;38,00,5B,E0
+;win功能到ctrl位置
+;5B,E0,1D,00
+
+Windows Registry Editor Version 5.00
+ ;双击执行该文件，即可。（需要重启电脑）
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,    1D,00,38,00,    38,00,5B,E0,    5B,E0,1D,00,    00,00,00,00
