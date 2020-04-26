@@ -1,21 +1,21 @@
 Windows Registry Editor Version 5.00
 
-;Windows Registry Editor Version 5.00????????????
+;               Windows Registry Editor Version 5.00 ———— This Line , Must Place on Top
 
-;Left Alt       ????            38,00
-;Left Ctrl      ????            1D,00
-;Left Windows   ????            5B,E0
+;               Left Alt       Default Position            38,00
+;               Left Ctrl      Default Position            1D,00
+;               Left Windows   Default Position            5B,E0
 
-;?????
-;ctrl???ctrl??
-;1D,00,1D,00
-;alt???alt??
-;38,00,38,00
-;win???win??
-;5B,E0,5B,E0
+;               Restore Origin
+;               ctrl Function to ctrl Position
+;                   1D,00,1D,00
+;               alt  Function to alt  Position
+;                   38,00,38,00
+;               win  Function to win  Position
+;                   5B,E0,5B,E0
 
 
 
- ;???????????????????
+ ;               Double Click this file , it works . (must restart computer)
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
 "Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,    1D,00,1D,00,    38,00,38,00,    5B,E0,5B,E0,    00,00,00,00

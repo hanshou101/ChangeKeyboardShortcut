@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
-;Windows Registry Editor Version 5.00????????????
+;               Windows Registry Editor Version 5.00 ———— This Line , Must Place on Top
 
-;???????????????????
+;               Double Click this file , it works . (must restart computer)
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
 "Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,    38,00,1D,00,    1D,00,38,00,    00,00,00,00
