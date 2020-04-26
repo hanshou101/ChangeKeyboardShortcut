@@ -1,4 +1,4 @@
 Windows Registry Editor Version 5.00
-;双击执行该文件，即可。（需要重启电脑）
+;???????????????????
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
 "Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,    38,00,38,00,    1D,00,1D,00,    00,00,00,00
